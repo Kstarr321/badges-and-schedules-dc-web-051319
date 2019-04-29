@@ -8,6 +8,9 @@ def batch_badge_creator(arr)
   end 
 end 
 
+
+#batch_badge_creator(people)
+
 def assign_rooms(arr)
   arr2 = []
   arr.each_index do |idx|
@@ -16,7 +19,9 @@ def assign_rooms(arr)
   arr2
 end 
 
-def printer(attendees)
-  puts batch_badge_creator(attendees)
-  puts assign_rooms(attendees)
+#assign_rooms(people)
+
+def printer(arr)
+  puts batch_badge_creator(arr)
+  puts assign_rooms(arr)
 end 
