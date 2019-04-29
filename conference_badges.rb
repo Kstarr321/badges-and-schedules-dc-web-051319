@@ -16,3 +16,8 @@ def assign_rooms(arr)
   end 
   arr2
 end 
+
+def printer
+  puts batch_badge_creator
+  puts assign_rooms
+end 
