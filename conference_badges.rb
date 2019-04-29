@@ -3,9 +3,11 @@ def badge_maker(name)
 end 
 
 def batch_badge_creator(arr)
-  arr.collect do |speaker|
-    badge_maker(speaker)
+  new_array = []
+  arr.each do |speaker|
+    new_array << badge_maker(speaker)
   end 
+  new_array
 end 
 
 
