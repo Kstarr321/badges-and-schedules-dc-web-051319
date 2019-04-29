@@ -12,8 +12,8 @@ def assign_rooms(arr)
   arr2 = []
   arr.each_index do |idx|
     arr2 << "Hello, #{arr[idx]}! You'll be assigned to room #{idx+1}!"
-
   end 
+  puts arr2
   arr2
 end 
 
