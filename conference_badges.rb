@@ -13,11 +13,10 @@ def assign_rooms(arr)
   arr.each_index do |idx|
     arr2 << "Hello, #{arr[idx]}! You'll be assigned to room #{idx+1}!"
   end 
-  puts arr2
   arr2
 end 
 
 def printer(attendees)
-  puts batch_badge_creator
-  puts assign_rooms
+  puts batch_badge_creator(attendees)
+  puts assign_rooms(attendees)
 end 
