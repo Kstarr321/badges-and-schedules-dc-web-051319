@@ -7,7 +7,7 @@ def batch_badge_creator(arr)
   arr.each do |speaker|
     new_array << badge_maker(speaker)
   end 
-  #new_array
+  new_array
 end 
 
 
